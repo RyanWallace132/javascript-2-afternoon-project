@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me = {
+  name: 'Ryan',
+  age: 19,
+}
+alert.name
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,21 +28,30 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'Asking Alexandria',
+  food: 'Pizza',
+  person: 'Mom',
+  book: 'Lord of the Rings',
+  movie: 'Warcraft',
+  holiday: 'Christmas',
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings['car'] = 'f1'
+favoriteThings['brand'] = 'ferrari'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,6 +63,18 @@
 */
 
 //Code here
+let backPack = {
+  item: '',
+  firstPocket: '',
+  
+
+}
+let item = ['firstPocket']
+backPack['firstPocket'] = 'chapstick'
+backPack.assign(firstPocket)
+backPack.color = 'black'
+
+
 
 /*
   After you do the above, alert your entire backPack object.
@@ -85,7 +110,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2['email'] = 'bryansmith@devmounta.in'
+user2['name'] = 'Bryan G. Smith'
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -96,14 +122,17 @@ var user2 = {
 */
 
 //Code Here
+let methodCollection = {
 
+}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-
+methodCollection['alertHello'] = alert.Hello
+methodCollection['logHello'] = log.Hello
 /*
   Now call your alertHello and logHello methods.
 */
